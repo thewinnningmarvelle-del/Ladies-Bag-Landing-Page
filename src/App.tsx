@@ -155,7 +155,7 @@ export default function App() {
              transition={{ delay: 0.2 }}
              className="space-y-4"
           >
-            <h2 className="text-gold-500 font-medium tracking-widest uppercase text-sm">স্বাগতম মারভেল শপে</h2>
+            <h2 className="text-gold-500 font-medium tracking-widest uppercase text-sm">Welcome to Marvelle Shop</h2>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               {CONFIG.product.name}
             </h1>
