@@ -221,7 +221,7 @@ export default function App() {
           </motion.div>
           
           <p className="text-center text-neutral-500 text-sm italic">
-            * বাংলাদেশের সবজায়গায় ডেলিভারি সুবিধা আছে ।
+            * বাংলাদেশের সবজায়গায় ফুল ক্যাশ অন ডেলিভারি সুবিধা আছে ।
           </p>
         </section>
       </main>
