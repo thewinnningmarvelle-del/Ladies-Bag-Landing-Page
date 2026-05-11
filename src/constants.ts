@@ -7,13 +7,13 @@ export const CONFIG = {
   storeName: "Marvelle Shop",
   whatsappNumber: "01611111989",
   whatsappMessage: "সালাম, আমি মারভেল শপ থেকে এই ব্যাগটি অর্ডার করতে চাই।",
-  googleSheetLink: "https://docs.google.com/spreadsheets/d/your-id-here", // User can replace this
+  googleSheetLink: "https://docs.google.com/forms/d/e/1FAIpQLScjN01FcAKRHMrPxRf64SqzNfNK9YYF9oEnjeyPsRMUR3wzYw/viewform?usp=sharing&ouid=102274776296577462164", // User can replace this
   
   // Product Data
   product: {
-    name: "লেডিস লাক্সারি হ্যান্ডব্যাগ",
-    regularPrice: "৪,৫০০",
-    discountedPrice: "২,৯৯০",
+    name: "লেডিস হ্যান্ডব্যাগ",
+    regularPrice: "1499",
+    discountedPrice: "899",
     currency: "৳",
     details: [
       "প্রিমিয়াম কোয়ালিটি লেদার মেটেরিয়াল।",
