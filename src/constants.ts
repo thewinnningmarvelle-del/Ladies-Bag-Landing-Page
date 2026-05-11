@@ -20,7 +20,7 @@ export const CONFIG = {
       "আধুনিক এবং স্টাইলিশ ডিজাইন।",
       "দীর্ঘস্থায়ী ও টেকসই চেইন এবং হুক।",
       "যেকোনো পার্টি বা ক্যাজুয়াল গেটআপের জন্য পারফেক্ট।",
-      "কালার: ক্লাসিক ব্ল্যাক / এলিগ্যান্ট গোল্ড।"
+      "Color: Black / Golden / Olive Green / White / Baby Pink"
     ],
     // Links that can be changed easily
     media: [
