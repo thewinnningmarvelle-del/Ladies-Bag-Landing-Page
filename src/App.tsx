@@ -215,7 +215,7 @@ export default function App() {
                 className="w-full border border-green-500/30 bg-green-500/10 hover:bg-green-500/20 text-green-400 font-bold py-5 rounded-2xl flex items-center justify-center gap-3 text-xl transition-all"
               >
                 <MessageCircle size={24} />
-                হোয়াটসঅ্যাপে যোগাযোগ করুন 01611111989
+                হোয়াটসঅ্যাপে যোগাযোগ করুন
               </motion.button>
             </div>
           </motion.div>
