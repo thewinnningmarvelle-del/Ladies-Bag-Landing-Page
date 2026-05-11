@@ -40,6 +40,11 @@ export const CONFIG = {
         label: "Internal Space"
       },
       {
+        type: "image",
+        url: "https://scontent.fdac184-1.fna.fbcdn.net/v/t39.30808-6/634344929_122109602883226063_3559370317074456934_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_ohc=EahTFq6yBdgQ7kNvwGP46ux&_nc_oc=AdrA8XGHVzMc1PH5PMFEIGkCUPy2puu6xKhO0SIwJPf8tCc5wyvi_LsU65UnN1Vt_Rw&_nc_zt=23&_nc_ht=scontent.fdac184-1.fna&_nc_gid=8759BXsJ99YzXqp9DYu0Fw&_nc_ss=7b2a8&oh=00_Af4a014aidCx6rM8zkeSfp2QIh_KgS0veKiQtQauSI4L5Q&oe=6A0756A5",
+        label: "Internal Space"
+      },
+      {
         type: "video",
         url: "https://www.youtube.com/shorts/i6nsyt1_HMA", // Replace with real video link
         label: "Product Video"
