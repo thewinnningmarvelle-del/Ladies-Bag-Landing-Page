@@ -26,7 +26,7 @@ export const CONFIG = {
     media: [
       {
         type: "image",
-        url: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=1000",
+        url: "https://ae-pic-a1.aliexpress-media.com/kf/Sccd9819006744eaab151d611d0abc5a6N.jpg_220x220q75.jpg_.avif",
         label: "Front View"
       },
       {
