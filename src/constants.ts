@@ -41,7 +41,7 @@ export const CONFIG = {
       },
       {
         type: "image",
-        url: "https://github.com/thewinnningmarvelle-del/image/blob/main/pa%204.png?raw=true",
+        url: "https://github.com/thewinnningmarvelle-del/image/blob/main/pa%203.png?raw=true",
         label: "Internal Space"
       },
       {
