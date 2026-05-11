@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Hind Siliguri", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garmond", serif;
+  
+  --color-gold-50: #fffaf0;
+  --color-gold-100: #fdf2d8;
+  --color-gold-200: #fae1ad;
+  --color-gold-300: #f5ca75;
+  --color-gold-400: #efaf3a;
+  --color-gold-500: #d48b1d;
+  --color-gold-600: #ba6f16;
+  --color-gold-700: #9a5615;
+  --color-gold-800: #804619;
+  --color-gold-900: #6a3a19;
+  --color-gold-950: #3d1d0a;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-950 text-neutral-100 font-sans selection:bg-gold-400 selection:text-gold-950;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(212, 139, 29, 0.3);
+  }
+  
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+}
+
