@@ -43,20 +43,33 @@ export default function App() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-neutral-950/80 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+          
+          {/* Logo Section */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gold-500 rounded-full flex items-center justify-center font-bold text-neutral-950">
-              M
-            </div>
-            <span className="text-xl font-bold tracking-tighter text-glow">
-              {CONFIG.storeName}
-            </span>
+            {CONFIG.logo.isImage ? (
+              <img 
+                src={CONFIG.logo.src} 
+                alt={CONFIG.logo.text} 
+                className="h-10 w-auto object-contain" 
+              />
+            ) : (
+              <>
+                <div className="w-8 h-8 bg-gold-500 rounded-full flex items-center justify-center font-bold text-neutral-950">
+                  M
+                </div>
+                <span className="text-xl font-bold tracking-tighter text-glow">
+                  {CONFIG.storeName}
+                </span>
+              </>
+            )}
           </div>
+
           <button 
             onClick={handleWhatsAppClick}
             className="flex items-center gap-2 text-sm font-medium hover:text-gold-400 transition-colors"
           >
             <MessageCircle size={18} />
-            <span className="hidden sm:inline">সহায়তা</span>
+            <span className="hidden sm:inline">সহায়তা</span>
           </button>
         </div>
       </nav>
@@ -168,7 +181,7 @@ export default function App() {
                 {CONFIG.product.currency}{CONFIG.product.regularPrice}
               </span>
               <span className="bg-gold-500/10 text-gold-500 px-3 py-1 rounded-full text-xs font-bold border border-gold-500/20 uppercase tracking-tighter">
-                সীমিত সময়ের অফার
+                সীমিত সময়ের অফার
               </span>
             </div>
           </motion.div>
@@ -221,7 +234,7 @@ export default function App() {
           </motion.div>
           
           <p className="text-center text-neutral-500 text-sm italic">
-            * বাংলাদেশের সবজায়গায় ফুল ক্যাশ অন ডেলিভারি সুবিধা আছে ।
+            * বাংলাদেশের সবজায়গায় ফুল ক্যাশ অন ডেলিভারি সুবিধা আছে ।
           </p>
         </section>
       </main>
@@ -233,7 +246,7 @@ export default function App() {
             MARVELLE
           </h2>
           <p className="text-neutral-500 text-sm max-w-md mx-auto leading-relaxed">
-            আমরা দিচ্ছি সেরা কোয়ালিটির লাক্সারি কালেকশন । স্টাইলিশ হোন মারভেল শপের সাথে ।
+            Shop No #C09, level 02, Centrepoint, Airport, Dhaka
           </p>
         </div>
       </footer>
@@ -267,4 +280,3 @@ export default function App() {
     </div>
   );
 }
-
