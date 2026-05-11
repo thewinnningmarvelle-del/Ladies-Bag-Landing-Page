@@ -2,7 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
+import logoImg from './web logo.png';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
@@ -48,8 +48,8 @@ export default function App() {
           <div className="flex items-center gap-2">
             {CONFIG.logo.isImage ? (
               <img 
-                src={CONFIG.logo.src} 
-                alt={CONFIG.logo.text} 
+                src={logoImg} // এখানে পরিবর্তন করা হয়েছে
+                alt={CONFIG.logo.text}
                 className="h-10 w-auto object-contain" 
               />
             ) : (
