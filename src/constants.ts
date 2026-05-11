@@ -48,8 +48,10 @@ export const CONFIG = {
   },
   
   // Logo (Simple SVG or Text based)
-  logo: {
-    text: "MARVELLE",
-    subtext: "Luxe Collection"
-  }
+logo: {
+  isImage: true, 
+  src: "/web logo.png", // আপনার আপলোড করা ফাইলের নাম এখানে হুবহু বসানো হয়েছে
+  text: "MARVELLE",
+  subtext: "Luxe Collection"
+}
 };
