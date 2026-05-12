@@ -11,7 +11,7 @@ export const CONFIG = {
   
   // Product Data
   product: {
-    name: "Handle Clutch Bag",
+    name: "BUY 1 GET 1",
     regularPrice: "২১৫০",
     discountedPrice: "১৭৫০",
     currency: "৳",
