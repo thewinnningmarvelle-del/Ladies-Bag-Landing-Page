@@ -11,7 +11,7 @@ export const CONFIG = {
   
   // Product Data
   product: {
-    name: "BUY 1 GET 1",
+    name: "BUY 1 GET 1 OFFER",
     regularPrice: "২১৫০",
     discountedPrice: "১৭৫০",
     currency: "৳",
