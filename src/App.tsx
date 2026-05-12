@@ -181,7 +181,7 @@ export default function App() {
                 {CONFIG.product.currency}{CONFIG.product.regularPrice}
               </span>
               <span className="bg-gold-500/10 text-gold-500 px-3 py-1 rounded-full text-xs font-bold border border-gold-500/20 uppercase tracking-tighter">
-                সীমিত সময়ের অফার
+                ১ টা কিনলেই ১ টা ফ্রি
               </span>
             </div>
           </motion.div>
