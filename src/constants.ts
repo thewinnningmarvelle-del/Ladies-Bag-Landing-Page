@@ -12,8 +12,8 @@ export const CONFIG = {
   // Product Data
   product: {
     name: "Handle Clutch Bag",
-    regularPrice: "১৭৫০",
-    discountedPrice: "০",
+    regularPrice: "২১৫০",
+    discountedPrice: "১৭৫০",
     currency: "৳",
     details: [
       "Size: 20 x 7 x 14cm",
